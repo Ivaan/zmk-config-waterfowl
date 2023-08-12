@@ -53,7 +53,7 @@
             bindings = <
     &kp N1       &kp N2       &kp N3        &kp N4        &kp N5                &kp LC(V)  &kp HOME        &kp UP          &kp PG_UP       &kp LC(X)
     &mt LGUI N0  &mt LALT N9  &mt LSHFT N8  &mt LCTRL N7  &kp N6                &kp LC(C)  &mt RCTRL LEFT  &mt RSHFT DOWN  &mt RALT RIGHT  &mt RGUI KP_EQUAL
-    &kp LC(Z)    &LC(X)       &kp LC(C)     &kp LC(V)     &kp LBKT              &kp RBKT   &kp END         &kp DOWN        &kp PG_DN       &kp MINUS
+    &kp LC(Z)    &kp LC(X)    &kp LC(C)     &kp LC(V)     &kp LBKT              &kp RBKT   &kp END         &kp DOWN        &kp PG_DN       &kp MINUS
     &kp N1       &mo_tog 4 5  &lt 2 RET     &lt 2 RET     &kp C_MUTE            &kp PSCRN  &lt 4 SPACE     &lt 4 SPACE     &kp ESC         &kp N4
             >;
 
@@ -77,7 +77,7 @@
             bindings = <
     &kp N1       &kp N2       &kp N3        &kp N4        &kp N5                &kp LC(V)  &kp HOME        &kp UP          &kp PG_UP       &kp LC(X)
     &mt LGUI N0  &mt LALT N9  &mt LSHFT N8  &mt LCTRL N7  &kp N6                &kp LC(C)  &mt RCTRL LEFT  &mt RSHFT DOWN  &mt RALT RIGHT  &mt RGUI KP_EQUAL
-    &kp LC(Z)    &LC(X)       &kp LC(C)     &kp LC(V)     &kp LBKT              &kp RBKT   &kp END         &kp DOWN        &kp PG_DN       &kp MINUS
+    &kp LC(Z)    &kp LC(X)    &kp LC(C)     &kp LC(V)     &kp LBKT              &kp RBKT   &kp END         &kp DOWN        &kp PG_DN       &kp MINUS
     &kp N1       &mo_tog 4 5  &lt 4 TAB     &lt 4 TAB     &kp C_MUTE            &kp PSCRN  &lt 4 SPACE     &lt 4 SPACE     &kp ESC         &kp N4
             >;
 
