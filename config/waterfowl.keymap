@@ -168,4 +168,47 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+        combo_tild {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp GRAVE>;
+        };
+        combo_guitap {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp LGUI>;
+        };
+        combo_backspace {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp BACKSPACE>;
+        };
+        combo_delete {
+            timeout-ms = <50>;
+            key-positions = <16 17>;
+            bindings = <&kp DELETE>;
+        };
+        combo_backslash {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&kp BACKSLASH>;
+        };
+        combo_semicolon {
+            timeout-ms = <50>;
+            key-positions = <18 19>;
+            bindings = <&kp SEMICOLON>;
+        };
+        combo_app {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&kp K_APP>;
+        };
+    };
 };
