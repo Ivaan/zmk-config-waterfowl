@@ -18,6 +18,15 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&tog>;
         };
+        mt: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CUSTOM_HOLD_TAP";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
+            bindings = <&kp>, <&kp>;
+        };
         lmt: left_hand_positional_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "LEFT_POSITIONAL_HOLD_TAP";
