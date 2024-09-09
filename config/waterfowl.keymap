@@ -140,10 +140,10 @@
  *        `-----'   `-----------------------'           `---------------------'   `-----'
  */
             bindings = <
-    &kp F1    &kp F2  &kp F3  &kp F4  &kp F5                 &KP_NUM &kp KP_N7  &kp KP_N8  &kp KP_N9  &KP_MINUS
-    &kp F10   &kp F9  &kp F8  &kp F7  &kp F6                 &CAPS   &kp KP_N4  &kp KP_N5  &kp KP_N6  &KP_PLUS
-    &kp F11   &kp F12 &trans  &trans  &trans                 &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans
-    &kp N1    &trans  &trans  &trans  &kp N2                 &kp N3  &kp N0     &kp N0     &kp KP_DOT &kp N4
+    &kp F1    &kp F2  &kp F3  &kp F4  &kp F5                 &kp KP_NUM &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS
+    &kp F10   &kp F9  &kp F8  &kp F7  &kp F6                 &kp CAPS   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS
+    &kp F11   &kp F12 &trans  &trans  &trans                 &trans     &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans
+    &kp N1    &trans  &trans  &trans  &kp N2                 &kp N3     &kp N0     &kp N0     &kp KP_DOT &kp N4
             >;
 
             sensor-bindings = <&inc_dec_kp LC(Z) LC(Y) &inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(Z) LC(Y) &inc_dec_kp C_VOL_DN C_VOL_UP>;
