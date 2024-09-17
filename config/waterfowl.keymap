@@ -66,7 +66,7 @@
  *        |  1  |   |GAME/BT| ENTER | ENTER |           | SPACE | SPACE | ESC |   |  4  |
  *        `-----'   `-----------------------'           `---------------------'   `-----'
  */
-            display-name = "qwerty"
+            display-name = "qwerty";
             bindings = <
     &kp Q        &kp W        &kp E        &kp R        &kp T           &kp Y      &kp U        &kp I        &kp O        &kp P
     &lmt LGUI A  &lmt LALT S  &lmt LSHFT D &lmt LCTRL F &kp G           &kp H      &rmt RCTRL J &rmt RSHFT K &rmt RALT L  &rmt RGUI APOS
@@ -91,7 +91,7 @@
  *        |  1  |   |GAME/BT| ENTER | ENTER |           | SPACE | SPACE | ESC |   |  4  |
  *        `-----'   `-----------------------'           `---------------------'   `-----'
  */
-            display-name = "navLeft"
+            display-name = "navLeft";
             bindings = <
     &kp N1        &kp N2        &kp N3         &kp N4         &kp N5                &kp LC(V)   &kp HOME    &kp UP      &kp PG_UP &kp LC(X)
     &ht LGUI N0   &ht LALT N9   &ht LSHFT N8   &ht LCTRL N7   &kp N6                &kp LC(C)   &kp LEFT    &kp DOWN    &kp RIGHT &ht RGUI EQUAL
@@ -116,7 +116,7 @@
  *        |  1  |   |GAME/BT|  TAB  |  TAB  |           | SPACE | SPACE | ESC |   |  4  |
  *        `-----'   `-----------------------'           `---------------------'   `-----'
  */
-            display-name = "navRight"
+            display-name = "navRight";
             bindings = <
     &kp N1       &kp N2       &kp N3        &kp N4        &kp N5                &kp LC(V)  &kp HOME        &kp UP          &kp PG_UP       &kp LC(X)
     &ht LGUI N0  &ht LALT N9  &ht LSHFT N8  &ht LCTRL N7  &kp N6                &kp LC(C)  &ht RCTRL LEFT  &ht RSHFT DOWN  &ht RALT RIGHT  &ht RGUI EQUAL
@@ -141,7 +141,7 @@
  *        |  1  |   |       |       |       |           |   0   |   0   |  .  |   |  4  |
  *        `-----'   `-----------------------'           `---------------------'   `-----'
  */
-            display-name = "funcPad"
+            display-name = "funcPad";
             bindings = <
     &kp F1    &kp F2  &kp F3  &kp F4  &kp F5                 &kp KP_NUM &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS
     &kp F10   &kp F9  &kp F8  &kp F7  &kp F6                 &kp CAPS   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS
@@ -166,7 +166,7 @@
  *        |  1  |   |GAME/BT| ENTER | ENTER |           | SPACE | SPACE | ESC |   |  4  |
  *        `-----'   `-----------------------'           `---------------------'   `-----'
  */
-            display-name = "blueTooth"
+            display-name = "blueTooth";
             bindings = <
     &trans        &trans        &bt BT_CLR    &trans        &sys_reset          &trans          &trans          &bt BT_CLR      &trans        &trans
     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4
@@ -191,7 +191,7 @@
  *        |  1  |   |GAME/BT| SPACE | SPACE |           | SPACE | SPACE | ESC |   |  4  |
  *        `-----'   `-----------------------'           `---------------------'   `-----'
  */
-            display-name = "gamePad"
+            display-name = "gamePad";
             bindings = <
     &kp T      &kp Q       &kp W      &kp E      &kp R          &kp Y   &kp U      &kp I      &kp O    &kp P
     &kp G      &kp A       &kp S      &kp D      &kp F          &kp H   &kp J      &kp K      &kp L    &kp SEMI
